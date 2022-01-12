@@ -1,4 +1,4 @@
-https://crocket77.github.io/portfolio/
+https://crocket77.github.io/Ethansportfolio/
 
 <img src="./assets/images/portfolio.png"/>
 
