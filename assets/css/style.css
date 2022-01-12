@@ -1,0 +1,540 @@
+/* Why wont you let me merge to main? */
+/* GLOBAL SECTION */
+* { 
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+:root{
+  --bodytextcolor: darkblue;
+  --primary-color: yellow;
+  --secondary-color:blue;
+  --tertiary-color: rgb(60, 173, 158);
+  --work-background: orange; 
+}
+body {
+  background-color: rgb(248, 227, 205);
+  color: var(--bodytextcolor);
+  font-family: Helvetica, Arial, sans-serif;
+}
+h3 {
+  color: #024e76;
+  font-size: 40px;
+  margin-top: 0px;
+  text-align: center;
+}
+h4 {
+  font-size: 20px;
+  text-decoration: underline;
+}
+h5 {
+  font-size:15px;
+}
+/* GLOBAL SECTION END */
+
+/* HEADER / NAV BAR STYLES START */
+header {
+  padding: 20px 35px;
+  /* background-color: darkblue; */
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(8,8,60,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  display:flex;
+  justify-content: space-around;
+  text-align: center;
+  flex-wrap:wrap;
+  flex-direction: column;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  z-index:9999;
+}
+header h1 {
+  font-weight: bold;
+  /* display: flex; */
+  font-size: 50px;
+  font-family:'Times New Roman', Times, serif;
+  color: #f1d30d;
+  text-decoration: underline;
+  text-align: center;
+}
+header a {
+  text-decoration: none;
+  color: #fce138;
+  font-family:'Times New Roman', Times, serif;
+  font: size 36px;
+}
+
+header nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+header nav ul li a {
+  margin: 0 30px;
+  font-weight: lighter;
+  font-size: 36px;
+}
+/* HEADER / NAVBAR STYLES END */
+/* HERO STYLES START */
+.hero {
+  background-image: url('../images/flower_hero.jpg');
+  background-size:cover;
+  background-position: center;
+  position: relative;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  background-attachment: fixed;
+}
+.introduction {
+  width: 400px;
+  text-align: left;
+  color: black;
+  font-size:25px;
+  line-height: 1.2;
+  display:flex;
+  flex-wrap:wrap;
+  background-color: rgba(183, 179, 196, 0.9);
+  border-radius:20px;
+  border:2px solid #024e76;
+  margin:3%;
+}
+
+.intro {
+  position: relative;
+  display:flex;
+  padding:0px;
+}
+
+.intro img{
+  margin: 3.5%;
+  width: 400px;
+}
+
+.profile {
+  padding: 10px;
+  line-height: 30px;
+}
+
+/* HERO STYLES END */
+/* SECTION TITLE STYLES START */
+.section-title {
+  font-size: 55px;
+  display: inline-block;
+  padding: 0 100px 20px 100px;
+  border-bottom: 3px solid;
+  margin-bottom: 35px;
+  color: #024e76;
+}
+
+.primary-border {
+  border-color: #fce138;
+}
+
+.secondary-border {
+  border-color: #39a6b2;
+}
+/* SECTION TITLE STYLES END */
+
+/* INTRODUCTION START */
+.intro {
+  text-align: center;
+}
+
+.intro p {
+  line-height: 1.7;
+  color: #39a6b2;
+  width: 80%;
+  margin: 0 auto;
+  font-size: 20px;
+}
+/* INTRODUCTION END */
+
+
+/* RESUME STARTS */
+.credentials { 
+  text-align: center;
+  background: var(--work-background);
+  margin-left:  auto;
+  margin-right: auto;
+  width:70%;
+  padding-bottom: 10px;
+}
+
+.credentials ul {
+  margin-left:25px;
+}
+.credentials-title{
+  text-align: left;
+}
+.credentials-text{
+  text-align:left;
+  margin-left:20px;
+  margin-right:30px;
+}
+.work span {
+  font-size: 38px;
+}
+.work p {
+  color: #39a6b2;
+  font-size: 23px;
+}
+/* Resume END */
+/* APPLICATIONS SECTION */
+
+.applications {
+  justify-content: center;
+}
+
+.applications h3{
+  margin-top: 10px;
+  text-align: center;
+  background-color: aqua;
+}
+
+
+
+.app1{
+
+  justify-content: center;
+}
+.app1 h4{
+  margin-top: 10px;
+  text-align: center;
+  background-color: grey;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.app1 img {
+  width:600px;
+  height: 700px;
+}
+
+.app2 h4{
+  width: 400;
+  margin-top: 10px;
+  text-align: center;
+  background-color: grey;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.app2 img {
+  width:400px;
+  height: 500px;
+}
+
+
+.flo img{
+  width:375;
+  height:475;
+}
+
+/* APPLICATIONS SECTION END */
+/* FLOWERS START */
+.fathers-flowers h3 {
+  background-color: green;
+  color:rgb(44, 42, 42);
+}
+.fathers-flowers p{
+  font-size: 1.5em;
+  background-color: green;
+  color:rgb(44, 42, 42);
+  line-height: 30px;
+  padding: 0px 5px;
+}
+.flower-cards{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: space-around;
+}
+
+.flower img{
+  width:400px;
+  margin-top:auto;
+  margin-bottom: auto;
+}
+.flower{
+  background-color: green;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 10px;
+  padding: 5px ;
+  flex: 0 0 375px;
+}
+/* REACH OUT STYLES START */
+.contact {
+  background:var(--secondary-color);
+  display:block;
+  /* flex-wrap: wrap;  */
+  justify-content: center;
+}
+.contact h3 {
+  color: var(--primary-color);
+  width: 100%;
+  justify-content: center;
+
+}
+.contact p {
+  color: var(--primary-color);
+  width: 100%;
+  text-align: center;
+
+}
+.contact address {
+  color: var(--primary-color);
+  width: 100%;
+  text-align: center;
+
+}
+/* .my-info {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+ 
+} */
+
+
+.contact-info div {
+  color: white;
+}
+
+.contact-info h3 {
+  color: var(--primary-color);
+  font-size: 32px;
+  display:flex;
+  flex-wrap:wrap;
+}
+
+.contact-info p, .contact-info address {
+  margin: 20px 0;
+  line-height: 1.5;
+  font-size: 16px;
+  font-style: normal;
+}
+
+.contact-form input, .contact-form textarea {
+  border: 1px solidvar(--secondary-color);
+  display: block;
+  padding: 7px 15px;
+  font-size: 16px;
+  color:var(--secondary-color);
+  width: 100%;
+  margin-bottom: 15px;
+  margin-top: 5px;
+  border-radius: 10px;
+  background-color: rgba(255,255,255, 0.75);
+}
+
+.contact-form input:focus, .contact-form textarea:focus {
+  background-color: rgba(255,255,255, 1);
+  outline: none;
+}
+
+.contact-form button {
+  width: 100%;
+  border: none;
+  background: var(--primary-color);
+  color:var(--secondary-color);
+  text-align: center;
+  padding: 15px 0;
+  font-size: 16px;
+  border-radius: 10px;
+}
+
+.contact-form button:hover {
+  color: var(--primary-color);
+  background: var(--tertiary-color);
+}
+
+.contact-info a {
+  color: var(--primary-color);
+}
+
+.my-info{
+  display:flex;
+  flex-wrap: wrap;
+}
+
+.flex-row {
+  display: flex;
+}
+/* Reach out style ends */
+/* FOOTER STYLES START */
+footer {
+  background: whitesmoke;
+  padding: 40px 35px;
+  width: 100%;
+  /* display:flex; */
+  justify-content: center;
+  /* flex-wrap:wrap; */
+  text-align: center;
+}
+
+footer h2 {
+  color: black;
+  font-size: 30px;
+  margin: 0;
+}
+
+footer div {
+  line-height: 1.5;
+
+}
+
+footer a {
+  color: black;
+}
+/* END FOOTER STYLES */
+
+/* UTILITIES */
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width: 980px) {
+  header {
+    padding-bottom: 0;
+    justify-content: center;
+    position: relative;
+  }
+
+  header h1 {
+    width: 100%;
+    text-align: center;
+  }
+
+  header nav ul {
+    margin-top: 20px;
+    width: 100%;
+    justify-content: center;
+  }
+
+  header nav ul li a {
+    font-size: 20px;
+  }
+  .credentials {
+    
+    margin-left:0px;
+    margin-right:0px;
+    width:100%;
+  }  
+
+  .my-info {
+    display: block;
+    /* flex-wrap: wrap; */
+    align-items: center;
+ }
+ .my-info h3 {
+  display: block;
+  align-items: center;
+}
+.my-info p {
+  display: block;
+  text-align: center;
+}
+.my-info p {
+  display: block;
+  text-align: center;
+}
+.my-info address {
+  display: block;
+  text-align: center;
+}
+
+  footer h2, footer div {
+    text-align: center;
+    width: 100%;
+  }
+
+
+  
+  .introduction h3{
+    padding-left: 5px;
+  }
+  .profile {
+    text-align: center;
+    padding: 1px;
+  }
+
+  .section-title {
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+  }
+  
+  .contact-info iframe{
+    flex: 1 100%;
+  }
+}
+
+/* MEDIA QUERY FOR TABLETS AND SMALLER */
+@media screen and (max-width: 768px) {
+
+
+
+}
+
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+@media screen and (max-width: 575px) {
+
+  .section-title {
+    width: 95%;
+  }
+
+  .intro p {
+    width: 100%;
+  }
+  .intro img{
+    margin:auto;
+    margin-bottom: 20px%;
+    width: 350px;
+  }
+  .credentials{
+  
+    padding-left: 10px;
+  }
+  .credentials-text{
+    text-align: left;
+    margin-left:0px;
+    margin-right:px;
+  }
+  /* .applications img {
+    width:350px;
+  } */
+  
+  .app1 img{
+    width:375px;
+  }
+  .app2{
+    justify-content: center;
+  }
+  .app2 img{
+    width: 375px;
+    justify-content: center;
+  }
+
+  .flower h4 {
+    text-align: center;
+  }
+
+  .contact-info {
+    text-align: center;
+  }
+
+  .contact-info > * {
+    flex: 0 100%;
+  }
+
+  .contact-form {
+    order: 3;
+  }
+}
