@@ -1,4 +1,4 @@
-https://crocket77.github.io/portfolio/
+https://crocket77.github.io/EthansPortfolio/
 
 <img src="./assets/images/portfolio.png"/>
 
@@ -6,8 +6,19 @@ https://crocket77.github.io/portfolio/
 
 Ethan Pfeiffer's Portfolio
 This is a collection of my credentials and web development applications. 
+It is mobile responsive. 
+
+Applications:
+Run-Buddy is a test website for learning web development.
+Freds Flowers is a site I created to show off my fathers garden.
 
 
+
+
+
+
+
+This is for me to keep track of the portfolio criteria. 
 This is the Acceptance Criteria:
 GIVEN I need to sample a potential employee's previous work
 WHEN I load their portfolio
